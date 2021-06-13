@@ -67,7 +67,7 @@ export class QuoteApiService {
   create(quote: Quote): Observable<any> {
     const url = `${ this.apiBase }/quotes`;
 
-    return this.http.post<any>(url, { quote });
+    return this.http.post<any>(url, quote);
   }
 
   delete(quoteId: string): Observable<any> {
