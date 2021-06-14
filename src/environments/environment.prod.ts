@@ -4,7 +4,7 @@ export const environment = {
   isAuthorizationEnabled: false,
   apiUrls: {
     auth: '',
-    quote: '/api',
+    quote: '/',
     share: '',
   },
 };
